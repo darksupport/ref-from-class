@@ -6,7 +6,7 @@ using System.IO;
 namespace BadCodeTestApp.Service
 {
 
-    abstract class ExeptionService : ICommand
+    abstract class ExeptionService : ICommand //название не совсем очевидное, подразумевает сервис
     {
         private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
