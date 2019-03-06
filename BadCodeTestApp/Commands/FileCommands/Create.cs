@@ -13,6 +13,7 @@ namespace BadCodeTestApp.Commands.FileCommands
         protected void CreateFile(string path)
         {
             File.Create(path + "\\test.txt");//такое статически заданное имя файла кажется не совсем корректным, напрашивается еще один параметр. верно?
+       //конечно.
         }
     }
 }
