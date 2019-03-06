@@ -26,7 +26,7 @@ namespace BadCodeTestApp
 
             string command = args[0];
 
-            if (!ContainerIoC.SearchRegisteredCommand(container, command))
+            if (!ContainerIoC.SearchRegisteredCommand(container, command)) //можно ли здесь сделать проверку более просто и избавится от if
             {
                 Console.WriteLine("Command {0} is illegal!", command);
             }
